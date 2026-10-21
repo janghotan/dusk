@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disk-usage-scout"
+version = "0.1.0"
+description = "A responsive terminal disk usage explorer"
+requires-python = ">=3.10"
+
+[project.scripts]
+dusk = "dusk_cli:main"
+
+[tool.setuptools]
+py-modules = ["dusk_cli"]
