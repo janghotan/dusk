@@ -1,6 +1,8 @@
 # dusk — Disk Usage Scout
 
-A small Python CLI for finding large files and directories. Requires Python 3.10+ and has no runtime dependencies.
+[简体中文](README.zh-CN.md)
+
+> A lightweight Python CLI for finding large files and directories, with depth limits, exclusions, and JSON output. Requires Python 3.10+ and has no runtime dependencies.
 
 ## Usage
 
